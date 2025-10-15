@@ -14,8 +14,15 @@ remote_theme: cotes2020/jekyll-theme-chirpy
 author:
   name: "Muhuyi Erick"
   email: "muhuyierick467@gmail.com"
-  twitter: "erick_muhuyi"
-  github: "muhuyierick"
+
+# Social Media
+social:
+  name: Muhuyi Erick
+  email: muhuyierick467@gmail.com
+  links:
+    - https://twitter.com/erick_muhuyi
+    - https://github.com/muhuyierick
+    - https://www.linkedin.com/in/muhuyi-erick
 
 # Navigation
 tabs:
@@ -31,24 +38,6 @@ avatar: "/assets/profile.png"
 # Build settings
 permalink: /posts/:title/
 paginate: 10
-paginate_path: /page/:num/
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-archives
-
-# Archives
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
 
 # Defaults
 defaults:
@@ -59,9 +48,17 @@ defaults:
       layout: post
       comments: false
       toc: true
-      permalink: /posts/:title/
   - scope:
       path: ""
       type: tabs
     values:
       layout: page
+
+# Exclude unnecessary files
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - README.md
+  - package.json
+  - package-lock.json
+  - node_modules
