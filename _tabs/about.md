@@ -81,6 +81,8 @@ Second Class Honours (Upper Division)
 - **Grants Proposal Writing Training** - APHRC (April 2025)
 - **Evidence Synthesis & AI in Research** - APHRC (July 2023)
 
+---
+
 ## References
 
 Available upon request
