@@ -168,6 +168,11 @@ kramdown:
 
 collections:
   tabs:
+   home: /
+  archives: /archives/
+  categories: /categories/
+  tags: /tags/
+  about: /about/ 
     output: true
     sort_by: order
 
