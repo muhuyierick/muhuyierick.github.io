@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<img src="/assets/picture.png" alt="Muhuyi Erick" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; float: right; margin-left: 30px; margin-bottom: 20px; border: 4px solid #2c3e50;">
-
 # Muhuyi Erick
 ### Research & Data Analyst
 
