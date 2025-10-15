@@ -1,7 +1,8 @@
 ---
 layout: page
 title: About
-permalink: /about/
+icon: fas fa-user
+order: 5
 ---
 
 # Muhuyi Erick
