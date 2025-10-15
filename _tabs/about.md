@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tab
 title: About
 image: /assets/picture.png
 permalink: /about/
@@ -27,8 +27,8 @@ A detail-oriented Statistician and Researcher with 2+ years of experience levera
 ### **Research Analyst Officer III** | African Population and Health Research Centre (APHRC)
 *November 2024 – March 2025 | Remote/Nairobi, Kenya*
 
-- Executed advanced statistical analysis (multivariate regression, logistic modelling) on complex datasets using Stata to evaluate program impact and identify public health trends
-- Authored a comprehensive research report from data interpretation to visualisation, with the manuscript currently under review for academic publication
+- Executed advanced statistical analysis (multivariate regression, logistic modeling) on complex datasets using Stata to evaluate program impact and identify public health trends
+- Authored a comprehensive research report from data interpretation to visualization, with the manuscript currently under review for academic publication
 - Conducted impact evaluations using DiD and PSM methodologies to assess the causal effects of development interventions for program scaling
 - Designed interactive maps in QGIS and infographics in Data Wrapper to communicate spatial patterns and findings to policymakers and stakeholders
 - Managed a field data collection team, implementing quality control protocols that reduced data errors by an estimated 15% and ensured research integrity
