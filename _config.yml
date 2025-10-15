@@ -43,6 +43,13 @@ social:
     # Uncomment below to add more social links
     - https://www.facebook.com/muhuyi.erick.5
     - https://www.linkedin.com/in/muhuyi-erick
+# Navigation Tabs 
+tabs:
+  home: /
+  archives: /archives/
+  categories: /categories/
+  tags: /tags/
+  about: /about/
 
 # Site Verification Settings
 webmaster_verifications:
@@ -167,12 +174,7 @@ kramdown:
       start_line: 1
 
 collections:
-  tabs:
-   home: /
-  archives: /archives/
-  categories: /categories/
-  tags: /tags/
-  about: /about/ 
+  tabs: 
     output: true
     sort_by: order
 
