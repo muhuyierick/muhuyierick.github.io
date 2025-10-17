@@ -4,6 +4,10 @@ on:
     branches:
       - main
       - master
+    paths-ignore:
+      - .gitignore
+      - README.md
+      - LICENSE
   workflow_dispatch:
 
 permissions:
@@ -18,8 +22,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      SITE_DIR: "."   # change to "docs" if your Gemfile/Jekyll site lives in a subfolder
 
     steps:
       - name: Checkout
@@ -36,24 +38,20 @@ jobs:
         with:
           ruby-version: 3.3
           bundler-cache: true
-        working-directory: ${{ env.SITE_DIR }}
 
       - name: Install dependencies
         run: bundle install --jobs 4 --retry 3
-        working-directory: ${{ env.SITE_DIR }}
 
       - name: Build site
         run: bundle exec jekyll build --destination "_site${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: "production"
-        working-directory: ${{ env.SITE_DIR }}
 
       - name: Test site
         run: |
           bundle exec htmlproofer "_site${{ steps.pages.outputs.base_path }}" \
             --disable-external \
             --ignore-urls '/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/'
-        working-directory: ${{ env.SITE_DIR }}
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
