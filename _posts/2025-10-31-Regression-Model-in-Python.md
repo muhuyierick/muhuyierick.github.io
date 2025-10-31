@@ -64,7 +64,7 @@ This project is a compact demonstration of the end-to-end steps required to buil
 
 Run the full notebook interactively on Google Colab:
 
-Open the Colab notebook
+[Open the Colab notebook](https://colab.research.google.com/drive/1I8bzIbeeq7laZaq0-vbtyUPqODLR94VM?usp=sharing)
 
 ---
 This project was completed as part of the "Data and AI" program by Cyber Shujaa. The course gave a practical framework to practice end-to-end model building and helped me understand what is needed for reliable model evaluation.
