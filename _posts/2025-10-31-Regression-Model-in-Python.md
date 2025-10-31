@@ -46,11 +46,11 @@ I used scikit-learn's `LinearRegression` class to create a simple linear model a
 
 To measure how well the model predicts prices, I used standard regression metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²). MAE gives the average absolute difference between predicted and actual values, MSE squares those differences and averages them (which penalizes larger errors more), and RMSE is the square root of MSE, giving error in the same units as the target (USD in this case). R² describes how much of the target variance the model explains compared with a simple mean predictor.
 
-Because the test set contains only one data point, R² cannot be calculated reliably and will return `nan` (Not a Number). The numerical results shown in the notebook reflect the small dataset: MAE and RMSE are large relative to the price scale, indicating prediction errors are substantial for this tiny sample. The key takeaway is that with very few data points the evaluation metrics are noisy and not robust — a larger dataset is needed for trustworthy model assessment.
+Because the test set contains only one data point, R² cannot be calculated reliably and will return `nan` (Not a Number). The numerical results shown in the notebook reflect the small dataset: MAE and RMSE are large relative to the price scale, indicating prediction errors are substantial for this tiny sample. The key takeaway is that with very few data points, the evaluation metrics are noisy and not robust — a larger dataset is needed for trustworthy model assessment.
 
 ## Step 9 — visualize predictions
 
-Finally, I plotted the test points and the regression line learned from the training data. Showing the regression line together with actual points helps visualize where the model predicts relative to the true prices. With such a small dataset the visualization confirms the model fits the training data but the single test point does not provide a strong validation of generalization.
+Finally, I plotted the test points and the regression line learned from the training data. Showing the regression line together with actual points helps visualize where the model predicts relative to the true prices. With such a small dataset, the visualization confirms the model fits the training data but the single test point does not provide a strong validation of generalization.
 
 ## Data analysis and important observations
 
@@ -62,9 +62,9 @@ This project is a compact demonstration of the end-to-end steps required to buil
 
 ## Interactive Colab notebook
 
-Run the full notebook interactively on Google Colab (click the link or paste it into your browser):
+Run the full notebook interactively on Google Colab:
 
-https://colab.research.google.com/drive/1I8bzIbeeq7laZaq0-vbtyUPqODLR94VM?usp=sharing
+Open the Colab notebook
 
 ---
 This project was completed as part of the "Data and AI" program by Cyber Shujaa. The course gave a practical framework to practice end-to-end model building and helped me understand what is needed for reliable model evaluation.
