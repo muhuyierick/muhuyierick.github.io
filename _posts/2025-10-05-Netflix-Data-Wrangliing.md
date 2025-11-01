@@ -9,6 +9,7 @@ author: "Muhuyi Erick"
 ## Introduction
 
 In this post, I explain a Kaggle-based assignment I completed as part of the Data and AI coursework. The post walks through each step I followed in plain English: where I got the data, how I inspected and prepared it, what analyses or models I ran, and the conclusions I drew. I also include clear placeholders where you can add the Kaggle dataset link and the raw data source so the post will be ready for publication on GitHub Pages.
+
 ---
 
 ## Project scope and goals
