@@ -3,7 +3,7 @@ layout: post
 title: "Regression Modelling in Python"
 date: 2025-10-31
 categories: [regression-modeling, python, data-exploration, data-cleaning]
-author: Muhuyi Erick
+author: "Muhuyi Erick"
 ---
 
 ## Introduction
