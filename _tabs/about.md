@@ -11,7 +11,8 @@ order: 5
 📍 Nairobi, Kenya  
 📞 +254746797047  
 📧 [muhuyierick467@gmail.com](mailto:muhuyierick467@gmail.com)  
-🔗 [LinkedIn Profile](https://linkedin.com/in/muhuyi-erick)  
+🔗 [LinkedIn Profile](https://linkedin.com/in/muhuyi-erick)
+📊 [Tableau Public Profile](https://public.tableau.com/app/profile/erick.muhuyi)
 📄 [Download PDF CV](/Muhuyi_Erick_Resume.pdf)
 
 ---
