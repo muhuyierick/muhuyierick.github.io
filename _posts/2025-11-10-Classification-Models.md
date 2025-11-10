@@ -6,8 +6,6 @@ categories: [machine-learning, classification, python, data-exploration, data-mo
 author: "Muhuyi Erick"
 ---
 
-# Classification Models Project: Wine Quality Prediction
-
 ## Introduction
 
 As part of my Data and AI journey with Cyber Shujaa, I completed a comprehensive classification modeling project focused on predicting wine categories based on chemical properties. This project provided me with hands-on experience in building, evaluating, and comparing multiple classification algorithms using Python's scikit-learn library. The experience deepened my understanding of how different machine learning approaches perform on real-world classification tasks.
