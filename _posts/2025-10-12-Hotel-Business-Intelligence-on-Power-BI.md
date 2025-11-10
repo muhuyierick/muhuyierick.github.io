@@ -52,7 +52,6 @@ These measures transformed raw data into meaningful business intelligence that p
 ### Step 5: Creating Interactive Visualizations
 I designed an intuitive dashboard with multiple interconnected visualizations:
 - Revenue trend analysis with time-series charts.
-- 
 - Room type utilization and performance comparisons.
 - Seasonal booking pattern analysis.
 - Interactive filters for date ranges, hotel properties, and room categories.
